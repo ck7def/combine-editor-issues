@@ -1,42 +1,19 @@
-# Combine - Code Editor & Git Client
+# Seven Agency Website
 
-Combine is a powerful code editor and file manager with professional Git integration, designed exclusively for iPhone and iPad.
+Marketing site for Seven Agency, highlighting super agents, digital twins, and a live chat front end concept.
 
-This repository hosts bug reports, feature requests, and other support issues.
+## Structure
 
-Download on the [App Store](https://apps.apple.com/us/app/combine-code-editor-git/id6744273472).
+- `index.html` — main page with hero, capability sections, and chat demo.
+- `styles.css` — typography, layout, and UI styling.
+- `script.js` — interactive chat experience with selectable super agents and digital twins.
 
-Create a [New Issue](https://github.com/combine-editor/combine-editor-issues/issues/new/choose).
+## Running locally
 
-## Before Creating an Issue
+This is a static site—open `index.html` in your browser or serve the directory with a simple HTTP server:
 
-Search existing issues to avoid duplicates. If a similar issue already exists, add relevant details to the existing discussion rather than creating a new issue.
+```bash
+python -m http.server 3000
+```
 
-## After Creating an Issue
-
-Check back regularly for follow-up questions or status updates. Additional information may be requested to resolve the issue.
-
-## Bug Reports
-
-Create a bug report when an existing feature is not working as intended. Bug reports include:
-- Unexpected behavior or crashes
-- Features that produce incorrect results
-- UI elements that do not respond properly
-- Performance issues with existing features
-
-## Feature Requests  
-
-Create a feature request when:
-- No existing feature accomplishes a desired task
-- An existing feature works correctly but could be enhanced or improved
-  
-## General Support  
-
-Create a general support request only when Bug Reports and Feature Requests are not applicable. 
-
-## Guidelines
-
-- Keep discussions focused on the specific issue
-- Avoid including personal information in issues
-- Follow issue guidelines to ensure effectiveness
-- Follow the [Code of Conduct](https://github.com/combine-editor/combine-editor-issues/tree/main?tab=coc-ov-file)
+Then visit `http://localhost:3000`.
